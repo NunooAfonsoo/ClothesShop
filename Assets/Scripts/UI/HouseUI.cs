@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class HouseUI : BuildingUI
 {
+    /// <summary>
+    /// Sets up the ui for the player inventory and adds listeners to the items' buttons
+    /// </summary>
     private void SetUpPlayerInventory()
     {
         foreach (Transform child in content)

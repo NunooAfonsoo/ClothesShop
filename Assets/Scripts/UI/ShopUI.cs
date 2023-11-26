@@ -46,6 +46,9 @@ public class ShopUI : BuildingUI
         SetUpPlayerInventory();
     }
 
+    /// <summary>
+    /// Sets up the ui for the player inventory and adds listeners to the items' buttons
+    /// </summary>
     private void SetUpPlayerInventory()
     {
         foreach (Transform child in sellTabContent)
@@ -83,6 +86,9 @@ public class ShopUI : BuildingUI
         base.ShowBuildingUI();
     }
 
+    /// <summary>
+    /// Sets up the ui for the shop inventory and adds listeners to the items' buttons
+    /// </summary>
     private void SetUpShopInventory()
     {
         foreach (Transform child in content)
